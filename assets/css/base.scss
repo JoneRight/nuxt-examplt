@@ -1,0 +1,32 @@
+@import './variables/core';
+@import 'media';
+@import 'quill';
+
+[lazy='loading'] {
+  background-image: url('~@/assets/img/loading.gif') !important;
+  background-color: $colorLazy;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% !important;
+}
+
+[lazy='error'] {
+  background-image: url('~@/assets/img/error.png') !important;
+  background-color: $colorLazy;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+// container
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+// 翻页
+.pageBox {
+  padding: 20px 0;
+  text-align: center;
+}
